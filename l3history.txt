@@ -1,0 +1,77 @@
+=>History Commands
+
+=>Clear Terminal
+clear
+ctrl+m+l
+
+ctrl+m (new Line)
+
+
+=> Close Terminal
+exit
+ctrl+d
+
+
+=>Cursor to start char in Terminal
+ctrl+a
+
+=>Cursor to end char in Terminal
+ctrl+e
+
+=>Find used commands again
+Ctrl + r
+Enter (if you want to use)
+Enter (if you want to cancel)
+
+=> Command Callback
+
+Press up arrow key  	(callback)
+Press up down key	(callback)
+!!			(Callback last command and run again)
+History			( see all commands history)
+History 5			( see last 5 commands history )
+!1453			command number and run
+!1457:p			not run the command, just print out the command name
+History -C		( clear all history)
+
+=>wget
+wget https://storage.googleapis.com/pod_public/1300/150537.jpg
+
+
+=>
+crtl+alt+t
+ls
+ls -l
+ls -a
+ls -l -a  or ls -la  or ls -al
+cat .bash_history
+vim .bash_history
+ctrl+c
+:qa
+
+
+=> Ignore space
+ls -l -a
+history
+ ls -la
+history
+cd
+cd
+cd
+cd
+cd
+history (continuous repeat will only record one time)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

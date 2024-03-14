@@ -1,0 +1,176 @@
+=> file
+
+=> Indetifying Linux File Types
+
+- 			= Regular File
+d 			= Directory
+c 			= Character Device File
+s 			= Socket File
+p 			= named pipe
+l 			= Symbolic Link
+
+
+----------------
+
+=> Create File
+
+touch 15sample.txt
+
+
+=> Create & Edit File (cat = concatenate)
+cat > 15example.txt
+hello sir....
+what are you doing
+ctrl + d
+
+=> Create & Edit File 
+echo > l5sample.txt
+
+echo "Hello Guys" > l5eg.txt
+cat l5eg.txt
+echo "Hello Ladies..." > l5eg.txt
+cat l5eg.txt
+
+
+=> Read File
+cat l5example.txt (1 to all)
+
+or 
+
+head 15example.txt (1 to 10)
+head -5 l5example.txt (1 to 5)
+head -15 l5example.txt (1 to 15)
+(or)
+tail l5example.txt (bottom to top)
+tail -5 l5example.txt (15 to 11)
+tail -15 l5example.txt (15 to 1)
+
+
+=> Check file status
+stat l5example.txt
+
+=> Check file type
+file l5example.txt
+
+
+=> Update File
+
+=>vim editor
+sudo apt install vim
+
+vim filename.fileformat or vi filename.fileformat
+
+:q to exit
+
+ctrl +c
+
+:qa! ( quit all buffers without a warning : unsaved and exit the file)
+
+vim l5example.txt
+i => insert
+what are you doing 16
+ctrl + c 
+:wq (write & quit - save and exit from editor app)
+
+=> nano editor (based in software in the system)
+nano filename.format
+
+nano l5example.txt
+what are you doing? 17
+ctrl + x
+y (file save & exit)
+enter
+
+
+=> gedit editor (System default app - text editor)
+gedit filename.format
+
+gedit l5example.txt
+
+sudo apt install gedit
+
+
+=> Rename File
+mv l5example.txt l5exampletext.txt
+
+
+=> Remove File
+rm -i filename.fileformat (with warning information before you delete y/n)
+rm -v filename.fileformat (with infomration after delete)
+rm -rf filename.fileformat (remove both file and folder)
+
+rm myfolder8 (can't delete folder)
+rm -rf myfolder8 (ok)
+
+=> Copy File
+touch l5sample.txt
+cp -r l5sample.txt l5samplebackup.txt
+cp -r l5samplebackup.txt yourfolder8
+cp -r l5samplebackup.txt yourfolder8/
+cp -r l5samplebackup.txt myfolder9/myfolder10
+
+=> Move File
+mv l5sample.txt myfolder9/myfolder8
+mv yourfolder8/l5samplebackup.txt myfolder9/myfolder8/
+
+
+=> Move File & Rename File same time
+mv yourfolder8/l5samplebackup.txt myfolder9/myfolder10/l5samplebackup2.txt
+
+
+ls
+ls -l       ( -l = long listing, display lots of information )
+ls -lh // h = human format (-h = display fiel size in a human-readable format)
+ls -lh | head              Pipe ( | )
+ls -lh | head -3
+ls -lh | tail
+ls -lh | tail -2
+ls -lF                  (-F = Distinguish directories and files in linux)
+ld -lS                  (-S -sort files by file size, biggest to smallest in size)
+ls -l                   (list order by name, a to z) 
+ls -lt                  (list order by time , z to a) 
+ls -l --full-time       (show by full time)
+
+
+
+=> Listing File by Types
+
+ls -l 
+ls -f 
+ls -lf 
+
+Symbol            Meaning 
+/               = Directory 
+@               = Link 
+*               = Executable             
+
+
+
+=> man          (Such as Help or Browser or Documentation)
+ctrl + alt + t 
+man ls
+man mkdir 
+man vim 
+man cat 
+
+q (q = quit) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

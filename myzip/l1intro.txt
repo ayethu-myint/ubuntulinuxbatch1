@@ -1,0 +1,110 @@
+=>32bit vs 64bit
+
+
+Linux - both official free version and enterprise version 
+		not user friendly
+		very reliable
+		no temp file and crack file
+		more secure from virus
+		best for multi-tasking
+		open source and public
+
+Window - 	Only paid version
+			user friendly
+			possibilities of temp files and crack files
+			
+Linux Kernel based - Kernel is the operating system to connect between hardwares and softwares
+
+=> Linux Distribution
+=> https://distrowatch.com/> Menu Bar>Distrowatch.com> Page Hit Ranking
+Famous Operations System
+
+Ubuntu		- Free and paid pro version
+CentOS		- Free and paid pro version
+Redhat		- Only paid version
+Fedora		- Free
+SuSe		- Free and Paid
+Debian		- Free
+Linux mint 	- Free
+Arch Linux	- Free
+
+
+=> Open Terminal (Linux is Case sensitive Operation System)
+ctrl+ alt +t
+
+Linux Color Coding
+
+1. Blue - Directory (such as url, etc)
+2. Green - Executble or recognized data file
+3. Skyblue - Symbolic link file
+4. Pink - Graphic image file
+5. Red - Archive file (zip, tar, tar.gz, etc)
+
+Common Dirctories
+
+/		-	"Root" the top of the file system
+/bin	-	Binary or executable programs
+/etc 	-	System configuration files
+/home 	-	home directory. it is the default current directory
+/opt 	-	Optional or third-party software
+/tmp 	-	Temporty space, typically cleared on reboot
+/usr 	-	User related programs
+/var 	-	Variable data, most notably log files
+
+Basic Line Commands
+
+ls - Lists directory contents
+cd - Changes the current directory
+pwd - Displays the present working directory
+cat - concatenates and display file
+echo - Display arguments to the screen
+exit - Exits the shell or your current session
+clear - Clear the screen
+
+
+
+
+
+=> APT (Advance Packaging Tool)
+
+sudo apt-get update    (package)
+sudo apt update
+
+sudo apt-get upgrade   (version)
+sud apt upgrade
+
+sudo apt-get update && sudo apt-get upgrade -y
+
+
+haynow.addEventListener( 'click',()=>{
+	
+});
+
+Before update application, need to upgrade OS update first because every applications are monitoring the OS update versions. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

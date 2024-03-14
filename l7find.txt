@@ -1,0 +1,11 @@
+=> find
+
+find
+ctrl + c (stop)
+
+find -name l5file.txt
+find -name l5files.txt
+find -name '*l5file*'
+find -name 'l5file*'
+
+

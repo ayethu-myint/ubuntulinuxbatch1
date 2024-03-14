@@ -1,0 +1,109 @@
+=> Symbolic Link
+
+=> in same folder
+
+ls -ls
+mkdir -p l11folder
+ls -l
+cd l11folder
+echo "Hello sir" > file0.txt
+ls
+cat file0.txt
+
+ln -s l11folder l11shortcut
+ls -l 
+cd l11shortcut
+ls -l 
+cd file0.txt
+
+cd l11folder
+ls
+echo "Hello World" > file0.txt
+ls 
+
+cd -
+cd l11shortcut
+ls 
+cat file1.txt
+
+echo "Hello Earth" > file2.txt
+ls
+
+cd -
+cd l11folder 
+ls 
+cat file2.txt 
+
+...............
+
+cd -
+rm -rf l11shortcut
+ls -l 
+cd l11folder 
+ls
+
+
+--------------------
+
+= Remove Original folder
+
+cd -
+ln -s l11folder l11shortcut
+ls -l 
+
+cd l11shortcut 
+ls 
+
+cd -
+rm -rf l11folder 
+ls -l 
+
+cd l11shortcut  (can't open, cos original folder deleted)
+rm -rf  l11shortcut
+
+------------
+
+
+=> in different folder
+
+mkdir -p l11folder
+cd l11folder 
+echo "Hello Sir"> file0.txt 
+ls 
+cat file0.txt 
+
+ctrl + Alt + t
+cd 
+ls 
+cd Desktop
+ls -l 
+ln -s l11folder l11shortcut  (not working)
+ln -s ~/Documents/class/ubuntulinuxbatch1/l11folder l11shortcut
+l11shortcut 
+ls 
+
+
+or 
+
+
+ln -s l11folder ~/Desktop/l11shortcut 
+cd 
+ls 
+cd Desktop 
+ls 
+cd l11shortcut  (not working, cos link was l11shortcut -> l11folder)
+ln -s ~/Docuemnts/class/ubuntulinuxbatch1/l11folder ~/Desktop/l11shortcut
+cd 
+ls -l 
+cd l11shortcut 
+
+
+----------------------------
+
+
+
+~/WVL Dropbox/Aye Thu Myint/WVL Myanmar/05-AT Myint/Personal Development Training/Web Development/class class-shortcut 
+ln -s ~/WVL\ Dropbox/Aye\ Thu\ Myint/WVL\ Myanmar/05\-AT \Myint/Personal\ Development\ Training/Web\ Development/class class-shortcut 
+ln -s ~/'WVL Dropbox'/'Aye Thu Myint'/'WVL Myanmar'/'05-AT Myint'/'Personal Development Training'/'Web Development'/class 'class-shortcut' 
+
+

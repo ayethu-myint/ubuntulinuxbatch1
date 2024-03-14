@@ -1,0 +1,8 @@
+=> tree (need to install)
+
+sudo apt install tree
+
+ls -ls
+tree
+
+cd myzip

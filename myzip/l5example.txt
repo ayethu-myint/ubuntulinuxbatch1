@@ -1,0 +1,4 @@
+echo > l5example.txt
+echo > l5sample.txt
+exit
+

@@ -1,0 +1,9 @@
+=> locate (need to install)
+
+sudo apt install mlocate
+
+cd /var/lib/plocate
+ls
+
+
+

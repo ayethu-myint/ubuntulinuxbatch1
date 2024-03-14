@@ -1,0 +1,45 @@
+l2foldernavigation.txt
+=>Folder Navigation
+
+. 		=	This directory is 
+.. 		=	The parent directory
+cd		=	Go to next directory
+cd - 	=	Change to previous directory
+/		=	Directory separator (forward slash)
+cd --	=	Go to Home folder
+
+
+=>Check current directory
+pwd			/home/administrator
+
+ls
+ls ..		// administrator
+ls ../..	// bin dev lib libx32 mnt root snap sys var boot etc ...
+
+ctrl+opt+t 
+ls
+ctrl +opt + t
+ls
+cd Music/
+ls
+cd folderone/
+ls
+cd 1/
+ls
+cd
+pwd
+
+ctrl+opt+t
+ls
+cd Music/
+ls
+cd folderone/
+ls
+cd 1/
+ls
+cd /		// /home/administrator/ (note: under root folder)
+cd -- 		// /home/adminstrator/ (note: stil under home folder)
+
+
+
+
